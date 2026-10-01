@@ -1,0 +1,231 @@
+{
+  "medicines": [
+    {
+      "id": "m1",
+      "name": "Paracetamol 500mg",
+      "brand": "MediCare",
+      "category": "Tablets",
+      "price": 35,
+      "stock": 120,
+      "prescription": false,
+      "description": "General fever and pain relief medicine."
+    },
+    {
+      "id": "m2",
+      "name": "Vitamin C 500mg",
+      "brand": "HealthPlus",
+      "category": "Vitamins",
+      "price": 120,
+      "stock": 80,
+      "prescription": false,
+      "description": "Vitamin supplement."
+    },
+    {
+      "id": "m3",
+      "name": "Cough Relief Syrup",
+      "brand": "MediCare",
+      "category": "Syrups",
+      "price": 95,
+      "stock": 45,
+      "prescription": false,
+      "description": "Cough relief syrup."
+    },
+    {
+      "id": "m4",
+      "name": "Amoxicillin 500mg",
+      "brand": "PharmaCare",
+      "category": "Capsules",
+      "price": 180,
+      "stock": 30,
+      "prescription": true,
+      "description": "Prescription medicine. Upload an approved prescription."
+    },
+    {
+      "id": "m5",
+      "name": "First Aid Kit",
+      "brand": "SafeCare",
+      "category": "First Aid",
+      "price": 299,
+      "stock": 25,
+      "prescription": false,
+      "description": "Basic first-aid essentials."
+    },
+    {
+      "id": "m6",
+      "name": "Baby Care Pack",
+      "brand": "MediCare",
+      "category": "Baby Care",
+      "price": 450,
+      "stock": 18,
+      "prescription": false,
+      "description": "Everyday baby-care essentials."
+    }
+  ],
+  "users": [
+    {
+      "id": "1790616377732",
+      "name": "Ishita Rohini",
+      "email": "ishitarohini109@gmail.com",
+      "phone": "8091794181",
+      "password": "$2a$10$2k7POM6/O234msFxfQ73tu5IL5v5tuN.PpDc/8xlkaOqXMBBRaFUG",
+      "role": "CUSTOMER"
+    }
+  ],
+  "orders": [
+    {
+      "id": "MQ1790616411631",
+      "userId": "1790616377732",
+      "items": [
+        {
+          "id": "m1",
+          "name": "Paracetamol 500mg",
+          "brand": "MediCare",
+          "category": "Tablets",
+          "price": 35,
+          "stock": 120,
+          "prescription": false,
+          "description": "General fever and pain relief medicine.",
+          "qty": 4
+        },
+        {
+          "id": "m2",
+          "name": "Vitamin C 500mg",
+          "brand": "HealthPlus",
+          "category": "Vitamins",
+          "price": 120,
+          "stock": 80,
+          "prescription": false,
+          "description": "Vitamin supplement.",
+          "qty": 1
+        },
+        {
+          "id": "m3",
+          "name": "Cough Relief Syrup",
+          "brand": "MediCare",
+          "category": "Syrups",
+          "price": 95,
+          "stock": 45,
+          "prescription": false,
+          "description": "Cough relief syrup.",
+          "qty": 1
+        },
+        {
+          "id": "m4",
+          "name": "Amoxicillin 500mg",
+          "brand": "PharmaCare",
+          "category": "Capsules",
+          "price": 180,
+          "stock": 30,
+          "prescription": true,
+          "description": "Prescription medicine. Upload an approved prescription.",
+          "qty": 1
+        }
+      ],
+      "address": "Demo Address, Himachal Pradesh",
+      "paymentMethod": "Demo Payment",
+      "total": 535,
+      "status": "PLACED",
+      "date": "2026-09-28T17:26:51.631Z"
+    },
+    {
+      "id": "MQ1790654137911",
+      "userId": "1790616377732",
+      "items": [
+        {
+          "id": "m1",
+          "name": "Paracetamol 500mg",
+          "brand": "MediCare",
+          "category": "Tablets",
+          "price": 35,
+          "stock": 120,
+          "prescription": false,
+          "description": "General fever and pain relief medicine.",
+          "qty": 1
+        },
+        {
+          "id": "m2",
+          "name": "Vitamin C 500mg",
+          "brand": "HealthPlus",
+          "category": "Vitamins",
+          "price": 120,
+          "stock": 80,
+          "prescription": false,
+          "description": "Vitamin supplement.",
+          "qty": 1
+        }
+      ],
+      "address": "Demo Address, Himachal Pradesh",
+      "paymentMethod": "Demo Payment",
+      "total": 155,
+      "status": "PLACED",
+      "date": "2026-09-29T03:55:37.911Z"
+    },
+    {
+      "id": "MQ1790656530234",
+      "userId": "1790616377732",
+      "items": [
+        {
+          "id": "m1",
+          "name": "Paracetamol 500mg",
+          "brand": "MediCare",
+          "category": "Tablets",
+          "price": 35,
+          "stock": 120,
+          "prescription": false,
+          "description": "General fever and pain relief medicine.",
+          "qty": 4
+        },
+        {
+          "id": "m5",
+          "name": "First Aid Kit",
+          "brand": "SafeCare",
+          "category": "First Aid",
+          "price": 299,
+          "stock": 25,
+          "prescription": false,
+          "description": "Basic first-aid essentials.",
+          "qty": 1
+        }
+      ],
+      "address": "Demo Address, Himachal Pradesh",
+      "paymentMethod": "Demo Payment",
+      "total": 439,
+      "status": "PLACED",
+      "date": "2026-09-29T04:35:30.234Z"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "1790616449502",
+      "userId": "1790616377732",
+      "fileName": "FA-2-Report template.pdf",
+      "status": "PENDING",
+      "notes": "",
+      "date": "2026-09-28T17:27:29.502Z"
+    },
+    {
+      "id": "1790654116260",
+      "userId": "1790616377732",
+      "fileName": "FA-2-Report template.pdf",
+      "status": "PENDING",
+      "notes": "",
+      "date": "2026-09-29T03:55:16.260Z"
+    },
+    {
+      "id": "1790655321548",
+      "userId": "1790616377732",
+      "fileName": "Project Abstractgoogle.pdf",
+      "status": "PENDING",
+      "notes": "",
+      "date": "2026-09-29T04:15:21.548Z"
+    },
+    {
+      "id": "1790655322788",
+      "userId": "1790616377732",
+      "fileName": "Project Abstractgoogle.pdf",
+      "status": "PENDING",
+      "notes": "",
+      "date": "2026-09-29T04:15:22.788Z"
+    }
+  ]
+}
